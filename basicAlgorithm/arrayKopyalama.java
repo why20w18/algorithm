@@ -1,0 +1,43 @@
+package basicAlgorithm;
+
+
+public class arrayKopyalama {
+    
+    public static int[] randomArray(){
+        
+        int[] array = new int[12];
+        for(int i = 0 ; i < array.length ; i++) array[i] = (int) (Math.random()*80);
+        
+        return array;
+    }
+    
+    
+    public static void main(String[] args) {
+        
+        int[] randomDizi = randomArray();
+        System.out.println("Random Olusturulan Dizi:");
+        for(int x : randomDizi) System.out.print(x+" ");
+        
+        int[] Dizi = new int[randomDizi.length];
+        
+        System.out.println("\nKopyalanmadan Once:");
+        for(int x : Dizi) System.out.print(x+" ");
+        
+        
+        Dizi = bosDiziyeKopyala(randomDizi);
+        
+        
+        System.out.println("\nBos Diziye Kopyalandiktan Sonra:");
+        for(int x : Dizi) System.out.print(x+" ");
+        
+    }
+    
+    public static int[] bosDiziyeKopyala(int[] randomDizi){
+        int yeniDizi[] = new int[randomDizi.length];
+        for(int i = 0 ; i < randomDizi.length ; i++){
+            yeniDizi[i] = randomDizi[i];
+        }
+        return yeniDizi;
+    }
+    
+}
