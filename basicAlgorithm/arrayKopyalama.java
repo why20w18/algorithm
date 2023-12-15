@@ -1,11 +1,11 @@
 package basicAlgorithm;
-
+import java.util.Scanner;
 
 public class arrayKopyalama {
     
-    public static int[] randomArray(){
+    public static int[] randomArray(int L){
         
-        int[] array = new int[12];
+        int[] array = new int[L];
         for(int i = 0 ; i < array.length ; i++) array[i] = (int) (Math.random()*80);
         
         return array;
@@ -13,8 +13,12 @@ public class arrayKopyalama {
     
     
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         
-        int[] randomDizi = randomArray();
+        System.out.println("Dizi uzunlugu girin:");
+        int L = scanner.nextInt();
+        
+        int[] randomDizi = randomArray(L);
         System.out.println("Random Olusturulan Dizi:");
         for(int x : randomDizi) System.out.print(x+" ");
         
