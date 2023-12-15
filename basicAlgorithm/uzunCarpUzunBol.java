@@ -5,28 +5,31 @@ import java.util.Scanner;
 public class uzunCarpUzunBol {
     
     public static int uzunIslem(int secim , int say1 , int say2){
-    int toplam = 0;
+        int sonuc = 0;
+        
+        int min = (say1 < say2) ? say1 : say2;
+        int max = (say1 < say2) ? say2 : say1;
+        
         switch(secim){
-            case 1 -> {
-                while(say2 != 0){
-                    toplam += say1;
-                    say2--;
-                    
+            
+            case 1->{
+                while(min != 0){
+                 
+                    sonuc += max;
+                    min--;
                 }
-            }
-            case 2 -> {
-                //min max
-                while(say2 >= say1){
-                toplam++;
-                say2 -= say1;
-
-                }
-            }
-            default -> {
-            }
                 
+            }
+            case 2->{
+                while(max >= min){
+                    sonuc++;
+                    max -= min;
+                }
+                
+            }
+            
         }
-        return toplam;
+        return sonuc;
     }
     
     public static void main(String[] args) {
