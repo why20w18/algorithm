@@ -34,12 +34,12 @@ public class terstenYazdirStringInt {
        
          if(scanner.hasNextInt()){
            int sayi = scanner.nextInt();
-           System.out.println("sayi blok");
+           System.out.print("sayi blok"+System.lineSeparator());
              System.out.println(ters(sayi));
          }
          else if(scanner.hasNextLine()){
            String metin = scanner.nextLine();
-           System.out.println("metin blok");
+           System.out.print("metin blok"+System.lineSeparator());
              System.out.println(ters(metin));
        }
      
