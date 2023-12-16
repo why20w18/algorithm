@@ -1,5 +1,5 @@
 package streams_Web;
-
+import java.awt.Desktop;
 import java.util.Scanner;
 import java.net.URL;
 import java.net.URLConnection;
@@ -60,7 +60,18 @@ public class kaynakKodOkuma {
             yazici.write(sb.toString());
             yazici.close();
             if(file.exists()){
-                JOptionPane.showMessageDialog(jframe, "dýþa aktarma baþarýlý !");
+                int calistirmak = JOptionPane.showConfirmDialog(jframe, "Dýþa aktarma baþarýlý"
+                        + " dosyayi çalýþtýrmak istiyor musunuz ?", "ÇALIÞT"
+                                + "IRMA ÝSTEÐÝ", JOptionPane.YES_NO_OPTION);
+            
+                if(calistirmak == JOptionPane.YES_OPTION){
+                    
+                    Desktop.getDesktop().browse(file.toURI());
+                }
+                else if(calistirmak == JOptionPane.NO_OPTION){
+                    System.out.println("Calistirma istegini reddettiniz");
+                }
+            
             }
             }catch (Exception e) {
                 System.out.println("hata :"+e.getMessage());
@@ -71,6 +82,8 @@ public class kaynakKodOkuma {
             System.out.println("Disa aktarma istegini reddettiniz");
         }
         
+        scanner.close();
+        System.out.println("Program Sonlandi !");
     }
     
 }
