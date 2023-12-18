@@ -24,7 +24,7 @@ public class istenenTabandanIstenene {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println(decimaldenHedefTabanCevir(2, 5, "3142"));
         
