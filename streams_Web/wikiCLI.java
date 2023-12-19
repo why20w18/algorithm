@@ -29,6 +29,7 @@ public class wikiCLI {
             
              if(aranacakKelime.contains("sil")){
                 gelenSayfaURL.clear();
+                continue;
             }
             
             Document doc = Jsoup.connect(viki + aranacakText + araSon).get();
@@ -60,6 +61,7 @@ public class wikiCLI {
             if(kullaniciGirisi.equals("c")){
                 System.out.println("Secim Atlandi ...");
                 continue;
+            
             }
 
             no = 1;
