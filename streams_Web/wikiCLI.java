@@ -53,10 +53,13 @@ public class wikiCLI {
             no++;
             String urlSonFormat = x.text().replaceAll(" ", "_");
             gelenSayfaURL.add("https://tr.wikipedia.org/wiki/"+urlSonFormat);
-            if(scanner.hasNextLine() == "sec"){ //int girerse secim yapsin
+            if(scanner.hasNextLine() && scanner.nextLine().contains("sec")){ //string olarak sec ile baslayan birsey girerse
+                //sec ve girilen int deger ayrilmali
+                String komut = scanner.nextLine();
+                int girilenNo = Integer.parseInt(komut)-1; //son indexi cikardik
                 
                 
-            }
+            }//scanner.hasNextLine() && scanner.nextLine().equals("sec")
         }
         gelenSayfaURL.clear(); //baðlý listeyi bosalttik
         no = 1;
