@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class bubbleSort {
-    
+    //yerine oturttuklarýný tekrar kontrol ediyor
     public static int [] buble(int [] dizi){
         int temp = 0;
         for(int i = 0 ; i < dizi.length ; i++){
