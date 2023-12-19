@@ -19,15 +19,16 @@ public class wikiCLI {
         String viki = "https://tr.wikipedia.org/w/index.php?search=";
         String araSon = "&title=%C3%96zel:Ara&profile=advanced&fulltext=1&ns0=1";
         String aranacakKelime = "";
-        StringBuilder sb = new StringBuilder();
+
         int no = 1;
+
         while(!aranacakKelime.equals("cikis")){
             
         System.out.println("WikiCLI<Aramak istediginizi girin>:");
         aranacakKelime = scanner.nextLine();
-        
+        aranacakKelime.replaceAll(" ", "\\+");
         //div.mw-search-results-container >> anasayfadaki metinler
-        
+            System.out.println(">>>"+aranacakKelime);
         Document doc = Jsoup.connect(viki+aranacakKelime+araSon).get();
         Elements element = doc.select("div.mw-search-result-heading");
         
