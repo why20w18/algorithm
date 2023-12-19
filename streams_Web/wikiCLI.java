@@ -35,9 +35,11 @@ public class WikiCLI {
             System.out.println("\n<------------------------------WikiCLI------------------------------>\ngirilen son komut : "+aranacakKelime);
             System.out.print("\nArayin\n~$");
             aranacakKelime = scanner.nextLine();
+            
+            System.out.println("<------------------------------WikiCLI------------------------------>");
             aranacakText = aranacakKelime.replaceAll(" ", "\\+");
             
-            
+            System.out.println("");
              if(aranacakKelime.equals("sil")){
                 gelenSayfaURL.clear();
                 continue;
@@ -52,11 +54,18 @@ public class WikiCLI {
                          + "\n@sec NO : aranan anahtar sonucu siralanan sayfalara gecis saglar"
                          + "\n@exit   : programi sonlandirir"
                          + "\nANA EKRAN KOMUTLARI"
+                         + "\n~$ARAMAK ISTEDGINIZ HER SEY KELIME CUMLE"
+                         + "\n~$yaz  : en son ekrana basilan sayfayi masaustune txt olarak kaydeder"
                          + "\n~$sil  : sayfalar arasi gecislerde eski sayfa gosterilmeye devam ederse"
                          + "\n~$help : komut sayfasini baslatir"
                          + "\n~$exit : programi sonlandirir");
                  continue;
              }
+             if(aranacakKelime.equals("yaz")){
+                 System.out.println("burasi daha programlanmadi ...");
+                 continue;
+             }
+             
             
             Document doc = Jsoup.connect(viki + aranacakText + araSon).get();
             Elements element = doc.select("div.mw-search-result-heading");
@@ -72,6 +81,8 @@ public class WikiCLI {
             // Kullanýcýnýn giriþini bir deðiþkende saklayýn ve kontrol edin
             System.out.print("Acilmasi istenen sayfa @");
             String kullaniciGirisi = scanner.nextLine();
+            
+            System.out.println("\n\n<-------------------------"+"------------------------->\n");
             if (kullaniciGirisi.contains("sec")) {
 
                 int girilenNo = Integer.parseInt(kullaniciGirisi.split(" ")[1]) - 1;
