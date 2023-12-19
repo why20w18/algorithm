@@ -96,8 +96,8 @@ public class WikiCLI {
         System.out.println(sb.toString());
         sb.setLength(0); // sb'yi sýfýrlayalým
     }
-                    gelenSayfaURL.clear();
              }
+                                 gelenSayfaURL.clear();
 
             }
            
