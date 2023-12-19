@@ -1,5 +1,6 @@
 package streams_Web;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,6 +11,16 @@ import org.jsoup.select.Elements;
 
 
 public class wikiCLI {
+
+    public static String bin(int no){
+        
+        
+        return "test";
+    }
+    
+    
+    
+
     
         //private static final int ORTALAMA_UZUNLUK = 150;
         
@@ -19,26 +30,39 @@ public class wikiCLI {
         String viki = "https://tr.wikipedia.org/w/index.php?search=";
         String araSon = "&title=%C3%96zel:Ara&profile=advanced&fulltext=1&ns0=1";
         String aranacakKelime = "";
-
+        String aranacakText = "";
+        
+        ArrayList<String> gelenSayfaURL = new ArrayList<String>();
         int no = 1;
 
         while(!aranacakKelime.equals("cikis")){
             
         System.out.println("WikiCLI<Aramak istediginizi girin>:");
         aranacakKelime = scanner.nextLine();
-        aranacakKelime.replaceAll(" ", "\\+");
+        aranacakText = aranacakKelime.replaceAll(" ", "\\+");
         //div.mw-search-results-container >> anasayfadaki metinler
-            System.out.println(">>>"+aranacakKelime);
-        Document doc = Jsoup.connect(viki+aranacakKelime+araSon).get();
+
+        //System.out.println(viki+aranacakText+araSon);
+        
+
+        Document doc = Jsoup.connect(viki+aranacakText+araSon).get();
         Elements element = doc.select("div.mw-search-result-heading");
         
         for (Element x : element) {
             System.out.println(no+"-"+x.text());
             no++;
+            String urlSonFormat = x.text().replaceAll(" ", "_");
+            gelenSayfaURL.add("https://tr.wikipedia.org/wiki/"+urlSonFormat);
+            if(scanner.hasNextLine() == "sec"){ //int girerse secim yapsin
+                
+                
+            }
         }
+        gelenSayfaURL.clear(); //baðlý listeyi bosalttik
+        no = 1;
         
             
-        }
+        }//while
         
         
     }
