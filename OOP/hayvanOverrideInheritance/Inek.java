@@ -15,7 +15,7 @@ public class Inek extends Hayvan{
     }
 
     public String getIsim() {
-        return isim;
+       return super.getIsim();
     }
 
 }
