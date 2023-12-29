@@ -17,9 +17,7 @@ public class Customer extends Person{
         this.eMail = eMail;
     }
     
-       public void indirimliUrunler(){
-        System.out.println("Indirimli urun stokta yok");
-    }
+       
     
 
     

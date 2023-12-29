@@ -18,7 +18,5 @@ public class Employee extends Person{
         this.maas = maas;
     }
     
-    public void mesaiGunleri(String isim){
-        System.out.println(isim+"'in mesai gunleri Pazartesi ve Cuma");
-    }
+    
 }
