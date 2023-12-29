@@ -5,13 +5,14 @@ public class Main {
     
     public static void main(String[] args) {
         
-        krediCokluHesapla(new OgretmenKrediManager()); //olceklenebilir degil
-        
-        
+        krediCokluHesapla(new OgretmenKrediManager()); 
+        krediCokluHesapla(new PolisKrediManager());
+        krediCokluHesapla(new CiftciKrediManager());
+    
     }
     
-    public static void krediCokluHesapla(OgretmenKrediManager ogretmenKrediManager){
-        ogretmenKrediManager.krediHesapla();
+    public static void krediCokluHesapla(BaseKrediManager baseKrediManager){
+        baseKrediManager.krediHesapla();
     }
     
 }
