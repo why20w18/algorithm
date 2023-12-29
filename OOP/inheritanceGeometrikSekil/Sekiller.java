@@ -10,6 +10,9 @@ public class Sekiller {
         this.alan = alan;
     }
     
+    public double alanHesapla(){
+        return alan;
+    }
 
     
 }

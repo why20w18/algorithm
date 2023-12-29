@@ -14,5 +14,9 @@ public class Dikdortgen extends Sekiller{
         this.genislik = genislik;
         
     }
+    
+    public double alanHesapla(){
+        return super.alanHesapla();
+    }
         
 }
