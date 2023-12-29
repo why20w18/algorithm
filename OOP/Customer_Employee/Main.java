@@ -8,16 +8,28 @@ public class Main {
         Customer musteri = new Customer();
         Employee calisan = new Employee();
         
+        CustomerManager musteriYonetimi = new CustomerManager();
+        EmployeeManager calisanYonetimi = new EmployeeManager();
+        //---------------
         musteri.seteMail("test@test.com");
-        musteri.indirimliUrunler();
+        musteriYonetimi.indirimliUrunler();
+
         System.out.println("Musteri E-Mail: "+musteri.geteMail());
+        musteriYonetimi.ekle();
+        musteriYonetimi.cikart();
+        
         
         System.out.println("-----------------");
         
         calisan.setMaas(12.000);
         calisan.setIsim("Ahmet");
-        calisan.mesaiGunleri(calisan.getIsim());
+        
+        calisanYonetimi.mesaiGunleri(calisan.getIsim());
         System.out.println("Calisanin Maasi: "+calisan.getMaas());
+        calisanYonetimi.ekle();
+        calisanYonetimi.cikart();
+    
+    
     }
     
 }
