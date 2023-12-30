@@ -4,11 +4,11 @@ public class Main {
     
     public static void main(String[] args) {
         
-        Calisan programci = new Programci(true, true, true, "Bugra", 2, "Java");
+        IMuhendis programci = new Programci(true, true, true, "Bugra", 2, "Java");
         Calisan makineci = new Makineci(false, false, true, "Ahmet", 3, 2.75);
         
         
-        programci.showInfo();
+        ((Programci)programci).showInfo();
         System.out.println();
         makineci.showInfo();
     }
