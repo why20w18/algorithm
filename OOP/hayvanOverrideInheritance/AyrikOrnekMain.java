@@ -38,7 +38,7 @@ class Kopek extends Hayvan{
     }
     
     public void saldir(){
-        System.out.println(isim+" Saldirdi !");
+        System.out.println("Kopek Saldirdi !");
     }
     
 }
@@ -48,18 +48,14 @@ public class AyrikOrnekMain {
 
     public static void main(String[] args) {
         
-        Hayvan kopek1 = new Kopek("Maya");
-        Hayvan kedi1 = new Kedi("Munni");
-        Hayvan hayvan1 = new Hayvan("Badem");
+        cokluKonustur(new Kopek("Maya"));
+        cokluKonustur(new Kedi("Munni"));
+        cokluKonustur(new Hayvan("Badem"));
         
-        kopek1.konus();
-        kedi1.konus();
-        hayvan1.konus();
-        
-        ((Kopek)kopek1).saldir();
-        
-        
-        
+    }
+    
+    public static void cokluKonustur(Hayvan hayvan){
+        hayvan.konus();
     }
         
 }
