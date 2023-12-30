@@ -54,8 +54,21 @@ public class AyrikOrnekMain {
         
     }
     
-    public static void cokluKonustur(Hayvan hayvan){
-        hayvan.konus();
+    public static void cokluKonustur(Object object){
+        
+        if(object instanceof Hayvan){
+            Hayvan hayvan = (Hayvan)object;
+            hayvan.konus();
+        }
+        else if(object instanceof Kedi){
+            Kedi kedi = (Kedi)object;
+            kedi.konus();
+        }
+        else if(object instanceof Kopek){
+            Kopek kopek = (Kopek)object;
+            kopek.konus();
+        }
+        
     }
         
 }
