@@ -31,13 +31,14 @@ public class inheritanceBaseSubaErisim {
         base poliNesne = new sub();
         
         baseNesne.selamla();
+        //((sub)baseNesne).selamla(); HATA VERÝR
         subNesne.selamla();
         poliNesne.selamla();
         
         //poliNesne.subaOzelMetod(); //HATA VERÝR ERÝÞEMEZ
         subNesne.subaOzelMetod();
         ((sub)poliNesne).subaOzelMetod(); //CALISIR HATA VERMEZ & Polimorfizm Cast
-        ((sub)baseNesne).subaOzelMetod(); //CALISMADI HATA VERDÝ
+        //((sub)baseNesne).subaOzelMetod(); //CALISMADI HATA VERDÝ
         
         
     }
