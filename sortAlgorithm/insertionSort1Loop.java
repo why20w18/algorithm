@@ -29,7 +29,7 @@ public class insertionSort1Loop {
         
         
         int[] sonuc = siralamaYap(dizi);
-        System.out.println("\nSIRLAMADAN SONRA");
+        System.out.println("\nSIRALAMADAN SONRA");
         for(int i : sonuc)
             System.out.print(i+" ");
         
