@@ -55,6 +55,8 @@
     bubbleSort.java
     bubleSort1.java
     selectionSort.java
+    mergeSort.java
+    quickSort.java
 
 >streams_Web
 
