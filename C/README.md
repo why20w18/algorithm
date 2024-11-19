@@ -19,7 +19,7 @@
     a14-5 tane rastgele sayinin basamaklari toplami
     a15-{1,2,3,4,5} girilen miktarda kaydirma yapma
     a16-random int dizisindeki ve string dizisindeki aranan karakterin indexini cevirme
-    a17-
+    a17-2 matrisin toplamini dinamik olarak alma ve struct kullanarak dinamik olarak kullanma 
 
 >DATA STRUCTS
 
