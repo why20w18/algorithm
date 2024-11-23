@@ -30,22 +30,18 @@
     a25-iki sayi araligindaki ardisik tek ve cift sayilari 2D array olarak cevirme
     a26-newton ralphson ile karekok hesaplama algoritmasi
     a27-iki sayi araligindaki tam kare sayilari array olarak cevirme
-    
-    a28-string uzunlugunu cevirme
-    a29-string icindeki her kelimenin uzunlugunu array olarak cevirme
-    a30-statik olarak bir stringi boyut kontrolleri yaparak baska degiskene kopyalama
-    a31-stringi dinamik olarak boyut kontrolleri yaparak kopyalama
-    a32-stringi istenen indexler arasinda keserek ayri string olarak cevirme
-    a33-iki stringi dinamik olarak birlestirme ve geri cevirme
-    a34-string icinde verilen en uzun ve en kisa kelimeyi bulan algoritma
-    a35-girilen string icindeki her kelimeyi ayri array olarak , 2D array icinde ceviren
-    a36-girilen stringi dinamik olarak ters cevirip geri donduren
-    a37-bir string icinde en fazla tekrar eden harfi bulma ve diger harflerin tekrar sayisi
+    a28-string icindeki her kelimenin uzunlugunu array olarak cevirme 
+    a29-statik ve dinamik stringi boyut kontrolleri yaparak baska degiskene kopyalama
+    a30-stringi istenen indexler arasinda keserek ayri string olarak cevirme
+    a31-iki stringi dinamik olarak birlestirme ve geri cevirme
+    a32-string icinde verilen en uzun ve en kisa kelimeyi bulan algoritma 
+    a33-girilen string icindeki her kelimeyi ayri array olarak , 2D array icinde ceviren
+    a34-girilen stringi dinamik olarak ters cevirip geri donduren 
+    a35-bir string icinde en fazla tekrar eden harfi bulma ve diger harflerin tekrar sayisi
     
 >SIFRELEME ALGORITMALARI
    
     ea1-sezar sifreleme algoritmasi
-    ea2-RSA sifreleme algoritmasi
 
 >DATA STRUCTS
 
