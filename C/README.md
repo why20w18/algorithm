@@ -43,6 +43,7 @@
     a37-bir string icinde en fazla tekrar eden harfi bulma ve diger harflerin tekrar sayisi
     
 >SIFRELEME ALGORITMALARI
+   
     ea1-sezar sifreleme algoritmasi
     ea2-RSA sifreleme algoritmasi
 
