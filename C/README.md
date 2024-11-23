@@ -1,7 +1,7 @@
 ## C ALGORITMALARI
 ### Dizinler ve Algoritmalar
 
->TEMEL ALGORITMALAR
+>TEMEL ALGORITMALAR = temel
     
     a1-random olusturulmus arrayi ters cevirme
     a2-palindrom kontrol
@@ -37,12 +37,16 @@
     a32-string icinde verilen en uzun ve en kisa kelimeyi bulan algoritma 
     a33-girilen string icindeki her kelimeyi ayri array olarak , 2D array icinde ceviren
     a34-girilen stringi dinamik olarak ters cevirip geri donduren 
-    a35-bir string icinde en fazla tekrar eden harfi bulma ve diger harflerin tekrar sayisi
+    a35-bir string icinde en fazla tekrar eden harfi bulma ve diger harflerin tekrar sayisi 
+    a36-sadece sayilardan olusan stringi integera cevirme islemi    
     
->SIFRELEME ALGORITMALARI
+    a37-binary octal ve hexadecimal sistemlerde hesaplama
+
+
+>SIFRELEME ALGORITMALARI = encrypt
    
-    ea1-sezar sifreleme algoritmasi
 
->DATA STRUCTS
+>DATA STRUCTS IMPLEMENTASYONLARI = data_structs_imp
+    
 
->SORT ALGORITMALARI
+>SORT - SEARCH ALGORITMALARI
