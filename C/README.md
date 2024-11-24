@@ -39,14 +39,26 @@
     a34-girilen stringi dinamik olarak ters cevirip geri donduren 
     a35-bir string icinde en fazla tekrar eden harfi bulma ve diger harflerin tekrar sayisi 
     a36-sadece sayilardan olusan stringi integera cevirme islemi    
-    
-    a37-binary octal ve hexadecimal sistemlerde hesaplama
+    a37-binary octal ve hexadecimal sistemlerde hesaplama    
+    a38-fibonacci dizisini istenen terime kadar
+    a39-girdinin asal carpanlarini tespit eden    
+    a40-iki kelimenin anagram olup olmadigini tespit
+    a41-int arrayde recursive permutasyon
+    a42-NxM matrisin transpozunu hesaplama
+    a43-birden N'ye kadar giden dizideki eksik elemani bulma 
 
 
 >SIFRELEME ALGORITMALARI = encrypt
    
 
+
 >DATA STRUCTS IMPLEMENTASYONLARI = data_structs_imp
     
 
+
 >SORT - SEARCH ALGORITMALARI
+
+
+
+>LEETCODE
+    
