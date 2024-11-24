@@ -46,6 +46,12 @@
     a41-int arrayde recursive permutasyon
     a42-NxM matrisin transpozunu hesaplama
     a43-birden N'ye kadar giden dizideki eksik elemani bulma 
+    a44-girilen kelimenin string icinde olup olmadigini arayan varsa baslangic ve bitis indexini ceviren 
+    a45-palindromik array kontrolu
+    a46-iki boyutlu arrayi 1 boyutlu hale indirgeme yapma
+    a47-girilen bir sayidaki farkli rakamlari bir array olarak cevirme
+    a48-baslangic ve bitisi verilen fonksiyon geriye bu araliktakileri iceren array dondursun
+    a49-verilen stringin basinda ve sonundaki bosluklari silen
 
 
 >SIFRELEME ALGORITMALARI = encrypt
