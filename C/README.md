@@ -58,11 +58,12 @@
    
 
 
->DATA STRUCTS IMPLEMENTASYONLARI = data_structs_imp
-    
+>DATA STRUCTS IMPLEMENTASYONLARI = ds_imp    
+    LL_01-tek yonlu linkedlist implementasyonu #1 (head global degil daha fonksiyonel)
+    LL_02-tek yonlu linkedlist implementasyonu #2 (head global ve ayri struct arr'de addr tutuluyor)
 
 
->SORT - SEARCH ALGORITMALARI
+>SORT - SEARCH ALGORITMALARI = sort_search
 
 
 
