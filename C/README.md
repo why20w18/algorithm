@@ -63,6 +63,7 @@
     LL_01-tek yonlu linkedlist implementasyonu #1 (head global degil daha fonksiyonel)
     LL_02-tek yonlu linkedlist implementasyonu #2 (head global ve ayri struct arr'de addr tutuluyor)
     LL_03-tek yonlu linkedlist implementasyonu #3 (head , tail , revPrint)
+    LL_04-tek yonlu linkedlist implementasyonu #4 (farkli veri tipleri tutan)
 
 
 >SORT - SEARCH ALGORITMALARI = sort_search
