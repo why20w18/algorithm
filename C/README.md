@@ -60,10 +60,16 @@
 
 >DATA STRUCTS IMPLEMENTASYONLARI = ds_imp    
 
-    LL_01-tek yonlu linkedlist implementasyonu #1 (head global degil daha fonksiyonel)
-    LL_02-tek yonlu linkedlist implementasyonu #2 (head global ve ayri struct arr'de addr tutuluyor)
-    LL_03-tek yonlu linkedlist implementasyonu #3 (head , tail , revPrint)
-    LL_04-tek yonlu linkedlist implementasyonu #4 (farkli veri tipleri tutan)
+    LL_01-tek yonlu linkedlist implementasyonu #1 
+    LL_02-tek yonlu linkedlist implementasyonu #2 
+    LL_03-tek yonlu linkedlist implementasyonu #3 
+    LL_04-tek yonlu linkedlist implementasyonu #4 
+    LL_05-tek yonlu linkedlist implementasyonu #5
+    LL_06-tek yonlu linkedlist implementasyonu #6
+
+
+
+
 
 
 >SORT - SEARCH ALGORITMALARI = sort_search
