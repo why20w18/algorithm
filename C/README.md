@@ -60,12 +60,16 @@
 
 >DATA STRUCTS IMPLEMENTASYONLARI = ds_imp    
 
-    LL_01-tek yonlu linkedlist implementasyonu #1 
-    LL_02-tek yonlu linkedlist implementasyonu #2 
-    LL_03-tek yonlu linkedlist implementasyonu #3 
-    LL_04-tek yonlu linkedlist implementasyonu #4 
-    LL_05-tek yonlu linkedlist implementasyonu #5
-    LL_06-tek yonlu linkedlist implementasyonu #6
+    SLL_01-singly linkedlist implementasyonu #1 
+    SLL_02-singly linkedlist implementasyonu #2 
+    SLL_03-singly linkedlist implementasyonu #3 
+    SLL_04-singly linkedlist implementasyonu #4 
+    SLL_05-singly linkedlist implementasyonu #5
+    SLL_06-singly linkedlist implementasyonu #6
+
+    DLL_01-doubly linkedlist implementasyonu #1
+    DLL_02-doubly linkedlist implementasyonu #2
+ 
 
 
 
