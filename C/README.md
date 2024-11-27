@@ -56,6 +56,7 @@
 
 >SIFRELEME ALGORITMALARI = encrypt
    
+    sezar-ascii ve kontrollu ascii olarak sezar sifrelemesi
 
 
 >DATA STRUCTS IMPLEMENTASYONLARI = ds_imp    
@@ -80,6 +81,8 @@
 
 >SORT - SEARCH ALGORITMALARI = sort_search
 
+    linSe-lineer searching
+    binSe-binary searching
 
 
 >LEETCODE
