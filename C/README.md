@@ -85,5 +85,8 @@
     binSe-binary searching
 
 
->LEETCODE
+>LEETCODE = leet
+
+   _1twoSum-two sum | O(n^2) | nested loop solution
+   
     
