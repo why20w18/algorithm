@@ -69,8 +69,10 @@
 
     DLL_01-doubly linkedlist implementasyonu #1
     DLL_02-doubly linkedlist implementasyonu #2
- 
 
+    ASTACK-array stack implementasyonu
+    LLS_01-linkedlist stack implementasyonu #1 
+    LLS_02-linkedlist stack implementasyonu #2
 
 
 
