@@ -88,5 +88,6 @@
 
 >LEETCODE = leet
    
-    _1twoSum-two sum | O(n^2) | nested loop solution
+    _1twoSum-two sum            | O(n^2)  |nested loop solution
+    _9palindromeNumber          | O(n)    |
    
