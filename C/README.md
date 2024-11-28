@@ -88,6 +88,6 @@
 
 >LEETCODE = leet
    
-    _1twoSum-two sum            | O(n^2)  |nested loop solution
-    _9palindromeNumber          | O(n)    |
+    _1twoSum01                    | O(n^2)  |nested loop solution
+    _9palindromeNumber01          | O(n)    |
    
