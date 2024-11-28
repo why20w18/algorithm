@@ -83,6 +83,7 @@
 
     linSe-lineer searching
     binSe-binary searching
+    bubSo-bubble sort in random array
 
 
 >LEETCODE = leet
